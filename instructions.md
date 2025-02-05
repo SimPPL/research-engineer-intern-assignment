@@ -16,9 +16,7 @@ Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have prev
   
 2. **IMPORTANT** Is the solution hosted with a neatly designed frontend?
    
-3. **IMPORTANT** Is there a search functionality for news URLs, hashtags, and other keywords across the platform, made available through this solution?
-   
-4. **IMPORTANT** Does the solution visualize summary statistics for the results? For example:
+3. **IMPORTANT** Does the solution visualize summary statistics for the results? For example:
 
   a. Time series of the number of posts matching a search query 
   
@@ -28,7 +26,7 @@ Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have prev
   
   d. Network visualization of accounts that have shared a particular keyword, hashtag, or URL using additional data they may have shared
   
-5. Unique features (optional, but here are some creative and useful features past applicants have built that resulted in successful outcomes):
+4. Unique features (optional, but here are some creative and useful features past applicants have built that resulted in successful outcomes):
 
    a. Topic models embedding all the content of results using Tensorflow projector (free, basic), Datamapplot (free, advanced), or Nomic (paid) as a platform to visualize the semantic map of the posts.
    
