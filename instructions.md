@@ -1,16 +1,26 @@
-<h1> Research Intern Assignment </h1>
+# Research Intern Assignment
 We're thrilled you're interested in joining SimPPL! This assignment is designed to give you a practical, hands-on experience in social media analysis, mirroring the kind of work you'd be doing with us.  It's structured like a mini-research project, challenging you to explore how information spreads across social networks, specifically focusing on content from potentially unreliable sources.  Instead of building a data collection tool from scratch for this initial exercise, you'll be provided with existing social media data. Your task is to design and build an interactive dashboard to analyze and visualize this data, uncovering patterns and insights about how specific links, hashtags, keywords, or topics are being shared and discussed.  This will allow you to focus on your data science, machine learning, and analysis skills, which are crucial to the research we conduct at SimPPL. The plots you create and the technologies you choose will be valuable learning experiences, and directly relevant to the work we do. 
 
-<h2>Task Objectives</h2>
+## Why do we care about this?
 
-1. Visualize Insights: Tell a story with a graph, building intuitive and engaging data visualizations.
+We have built tools for collecting and analyzing data from Reddit and Twitter including [Parrot](https://parrot.simppl.org) to study the sharing of news from certain unreliable Russian media providers. To ramp you up towards understanding how to go about extending such platforms, and to expand your understanding of the broader social media ecosystem, we would like you to construct a similar analysis to Parrot by studying other publicly accessible platforms listed above. We would like you to present an analysis of a broader range of viewpoints from different (apolitical / politically biased) groups. You may even pick a case study to present e.g. a relevant controversy, campaign, or civic event. 
 
-2. Apply AI/ML: Use LLMs and machine learning to generate metrics and enhance your analysis.
+In the long run, this research intends to accomplish the following objectives:
 
-3. Build and Deploy a Dashboard: Develop and (ideally) host an interactive dashboard to showcase your analysis.
+1. Track different popular trends to understand how public content is propagated on different social media platforms.
+2. Identify posts containing misleading information with the use of claims verification mechanisms.
+3. Analyze the trends across a large number of influential accounts over time in order to report on the influence of a narrative.
+
+## Task Objectives
+
+1. **Visualize Insights**: Tell a story with a graph, building intuitive and engaging data visualizations.
+
+2. **Apply AI/ML**: Use LLMs and machine learning to generate metrics and enhance your analysis.
+
+3. **Build and Deploy a Dashboard**: Develop and (ideally) host an interactive dashboard to showcase your analysis.
 
 
-<h2>Rubric for Evaluation</h2>
+## Rubric for Evaluation
 Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have previously built as a visualization platform for Twitter data (it does not have search integrations though it is a good example of a solution other than that). Below is the rubric we will use for your evaluation, provided as a checklist for you to evaluate your own assignment before you submit it to us. 
 
 1. **IMPORTANT** Is the solution well-documented such that it is easy to understand its usage?
@@ -45,7 +55,7 @@ Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have prev
 
 
 <h2>Link to the dataset</h2>
-<h2>Instruction for the submission</h2>
+## Instruction for the submission
 These instructions outline how to use GitHub for this assignment.  Please follow them carefully to ensure your work is properly submitted.
 
 1. Fork the Repository:
@@ -82,35 +92,41 @@ Work on your assignment within the cloned repository. Create your code files, vi
   &emsp; c. Now, commit your staged changes with a descriptive message- git commit -m "Your commit message here" (Replace "Your commit message here" with a brief1 description of the changes you made.2 Be clear and concise!)  <br>  
   &emsp; d. push your commits back to your forked repository on GitHub- git push origin main (Or, if you're working on a branch other than main, replace main with your branch name. origin refers to the remote repository you cloned from). 
   
-8. Please notify us of your submission by emailing simppl.collabs@gmail.com with the subject line "Applicant for SimPPL".
+8. Please notify us of your submission by emailing simppl.collabs@gmail.com with the subject line "Submitting Research Engineer Intern Assignment for SimPPL".
 
 
-<h2>Things to keep in mind while submitting your assignment</h2>
+### Submission Requirements
+
 Please ensure you include:
 
-1. A detailed README file (with screenshots).
-
-2. A detailed notebook or script for us to understand your code and thought process. 
-
+1. A detailed README file (with screenshots of your solution, a _hosted_ web platform).
+2. A text-based explanation of your code and thought process underlying system design. 
 3. A link to a video recording of your dashboard hosted on YouTube or Google Drive.
 
-4. Both of these make it easier for us to run your code and evaluate the assignment.
+Both of these last two make it easier for us to run your code and evaluate the assignment.
 
-<h3>Note</h3>
-Remember, you don’t have to build the perfect system. It can be a simple, elegant, and effective querying platform. All we want to see is the ability to search for a keyword, hashtag, link, or piece of input in any format you prefer, and the ability to identify posts on a platform that match the input either immediately or asynchronously once data is available. We will be testing the functionality of your system and the intuitiveness of the plots you have developed. Telling a single thoughtful story is much better than telling multiple broken ones–go for quality, not quantity :)
+### Resources
 
-Presentation matters, please ensure your assignment is possible to easily understand for someone who may be a non-expert on social media and non-technical at running complex queries. 
-Design and UX matters. Thinking through how a user may utilize your system is more important than adding yet another feature to make it more technically complex.
+1. [OSINT Tools](https://start.me/p/0Pqbdg/osint-500-tools)
+2. [Colly](http://go-colly.org/)
+3. [AppWorld](https://appworld.dev/)
+4. [Scrapling](https://github.com/D4Vinci/Scrapling)
+5. [Selenium](https://www.selenium.dev/)
+6. [Puppeteer](https://pptr.dev/)
+7. [DuckDB](https://github.com/duckdb/duckdb)
+8. [Cloudfare Workers](https://workers.cloudflare.com/)
+9. [Apache Superset](https://github.com/apache/superset)
+10. [Terraform](https://www.hashicorp.com/en/products/terraform)
+    
+#### Note
 
-<h3>References </h3>
+Focus on the analysis you are presenting and the story you are telling us through it. A well-designed and scalable system is more important than a complex one with a ton of features. Consider using innovative technologies in a user-friendly manner to create unique features for your platform such as AI-generated summaries that are adaptable to the data a user searches for, using your platform.
 
-1. <a href="https://github.com/ChrisStevens/garc">https://github.com/ChrisStevens/garc</a>
+Presentation matters! Make sure your submission is easy to understand. Create an intuitive and meaningful README file or a Wiki that can be used to review your solution. Host it so it is accessible by anyone. Ensure that you share a video demo even if it is hosted, so that users understand how to interpret the insights you present.
 
-2. <a href="https://github.com/whymath/sharechat-scraper">https://github.com/whymath/sharechat-scraper </a> 
+At SimPPL, we're building tools to analyze how information spreads on social media, especially from unreliable sources. Your work will help inform how to scale our analysis to a wider range of platforms and handle larger datasets. This is crucial for tracking trends, identifying misinformation, and understanding how narratives spread online.
 
-3. <a href="https://tgstat.ru/en">https://tgstat.ru/en</a> 
-
-4. <a href="https://start.me/p/0Pqbdg/osint-500-tools?locale=el">https://start.me/p/0Pqbdg/osint-500-tools?locale=el</a>  
+We're excited to see your solution!
 
 
 
