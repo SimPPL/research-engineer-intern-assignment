@@ -54,7 +54,8 @@ Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have prev
 **Bonus** If you host your Jupyter Notebook or JS dashboard, we consider it a significant improvement over applicants who haven’t hosted their solution.
 
 
-<h2>Link to the dataset</h2>
+### Link to the dataset
+
 ## Instruction for the submission
 These instructions outline how to use GitHub for this assignment.  Please follow them carefully to ensure your work is properly submitted.
 
@@ -106,7 +107,6 @@ Please ensure you include:
 Both of these last two make it easier for us to run your code and evaluate the assignment.
 
 ### Resources
-
 1. [OSINT Tools](https://start.me/p/0Pqbdg/osint-500-tools)
 2. [Colly](http://go-colly.org/)
 3. [AppWorld](https://appworld.dev/)
