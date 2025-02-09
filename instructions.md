@@ -59,23 +59,23 @@ Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have prev
 ## Instruction for the submission
 These instructions outline how to use GitHub for this assignment.  Please follow them carefully to ensure your work is properly submitted.
 
-1. Fork the Repository:
-   
-  &emsp; a. Go to the assignment repository provided by the instructor: [Insert Repository Link Here] 
-  
-  &emsp; b. Click the "Fork" button in the top right corner of the page. This creates a copy of the repository in your GitHub account. 
-  
-2. Clone Your Fork:
-   
-  &emsp; a. Go to your forked repository (it will be in your GitHub account).
-  
-  &emsp; b. Click the "Code" button (the green one) and copy the URL. This will be a git URL (ending in .git).
-  
-  &emsp; c. Open a terminal or Git Bash on your local machine.
-  
-  &emsp; d. Navigate to the directory where you want to work on the assignment using the cd command. For example: cd /path/to/your/projects.
-  
-  &emsp; e. Clone your forked repository using the following command: git clone <your_forked_repository_url> (Replace <your_forked_repository_url> with the URL you copied).
+# Assignment Submission Guide
+
+## 1. Fork the Repository
+
+1. Go to the assignment repository provided by the instructor: **[Insert Repository Link Here]**  
+2. Click the **"Fork"** button in the top right corner of the page.  
+   - This creates a copy of the repository in your GitHub account.  
+
+## 2. Clone Your Fork
+
+1. Go to your **forked repository** (it will be in your GitHub account).  
+2. Click the **"Code"** button (the green one) and copy the URL.  
+   - This will be a Git URL (ending in `.git`).  
+3. Open a **terminal** or **Git Bash** on your local machine.  
+4. Navigate to the directory where you want to work on the assignment using the `cd` command:  
+
+ e. Clone your forked repository using the following command: git clone <your_forked_repository_url> (Replace <your_forked_repository_url> with the URL you copied).
   
 This will download the repository to your local machine.
 
@@ -84,13 +84,13 @@ This will download the repository to your local machine.
 Work on your assignment within the cloned repository. Create your code files, visualizations, and any other required deliverables. Make sure to save your work regularly.
 
 6. Commit Your Changes
-  &emsp; a. After making changes, you need to "stage" them for commit. This tells Git which changes you want to include in the next snapshot.
-  &emsp; b. Use the following command to stage all changes in the current directory: 
-    &emsp; &emsp; i. To add all the files - git add. <br>
-    &emsp; &emsp; ii. Or, if you want to stage-specific files - git add <file1> <file2> ...
-  &emsp; c. Now, commit your staged changes with a descriptive message- git commit -m "Your commit message here" (Replace "Your commit message here" with a brief1 description of the changes you made.2 Be clear and concise!)  <br>  
-  &emsp; d. push your commits back to your forked repository on GitHub- git push origin main (Or, if you're working on a branch other than main, replace main with your branch name. origin refers to the remote repository you cloned from). 
-7. Please notify us of your submission by emailing simppl.collabs@gmail.com with the subject line "Submitting Research Engineer Intern Assignment for SimPPL".
+ a. After making changes, you need to "stage" them for commit. This tells Git which changes you want to include in the next snapshot.
+b. Use the following command to stage all changes in the current directory: 
+    i. To add all the files - git add. <br>
+    ii. Or, if you want to stage-specific files - git add <file1> <file2> ...
+c. Now, commit your staged changes with a descriptive message- git commit -m "Your commit message here" (Replace "Your commit message here" with a brief1 description of the changes you made.2 Be clear and concise!)  <br>  
+d. push your commits back to your forked repository on GitHub- git push origin main (Or, if you're working on a branch other than main, replace main with your branch name. origin refers to the remote repository you cloned from). 
+8. Please notify us of your submission by emailing simppl.collabs@gmail.com with the subject line "Submitting Research Engineer Intern Assignment for SimPPL".
 
 
 ### Submission Requirements
