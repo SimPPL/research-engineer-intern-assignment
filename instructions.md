@@ -84,16 +84,13 @@ This will download the repository to your local machine.
 Work on your assignment within the cloned repository. Create your code files, visualizations, and any other required deliverables. Make sure to save your work regularly.
 
 6. Commit Your Changes
-   
   &emsp; a. After making changes, you need to "stage" them for commit. This tells Git which changes you want to include in the next snapshot.
-  
   &emsp; b. Use the following command to stage all changes in the current directory: 
     &emsp; &emsp; i. To add all the files - git add. <br>
     &emsp; &emsp; ii. Or, if you want to stage-specific files - git add <file1> <file2> ...
   &emsp; c. Now, commit your staged changes with a descriptive message- git commit -m "Your commit message here" (Replace "Your commit message here" with a brief1 description of the changes you made.2 Be clear and concise!)  <br>  
   &emsp; d. push your commits back to your forked repository on GitHub- git push origin main (Or, if you're working on a branch other than main, replace main with your branch name. origin refers to the remote repository you cloned from). 
-  
-8. Please notify us of your submission by emailing simppl.collabs@gmail.com with the subject line "Submitting Research Engineer Intern Assignment for SimPPL".
+7. Please notify us of your submission by emailing simppl.collabs@gmail.com with the subject line "Submitting Research Engineer Intern Assignment for SimPPL".
 
 
 ### Submission Requirements
