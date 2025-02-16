@@ -54,7 +54,8 @@ Take a look at <a href="https://parrot.simppl.org/">parrot</a> that we have prev
 **Bonus** If you host your Jupyter Notebook or JS dashboard, we consider it a significant improvement over applicants who haven’t hosted their solution.
 
 
-### Link to the dataset
+### Link to the dataset 
+<a href="https://www.transfernow.net/dl/20250215wQidWpau">Dataset</a> 
 
 ## Instruction for the submission
 These instructions outline how to use GitHub for this assignment.  Please follow them carefully to ensure your work is properly submitted.
